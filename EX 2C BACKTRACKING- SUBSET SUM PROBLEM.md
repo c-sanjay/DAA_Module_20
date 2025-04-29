@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9d5ab471-7e44-4058-b996-7bd4858ba745)# EX 2C BACKTRACKING- SUBSET SUM PROBLEM
+# EX 2C BACKTRACKING- SUBSET SUM PROBLEM
 ## DATE:
 ## AIM:
 To demonstrate that the sum of the subset of a given set is equal to the given sum.
