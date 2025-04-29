@@ -60,7 +60,7 @@ class Graph():
 ```
 ## Output:
 
-
+![image](https://github.com/user-attachments/assets/2680c7d8-0f65-475a-95e8-44c3b1a665ca)
 
 ## Result:
 The Graph Coloring program executed successfully, and the colors were assigned to the vertices such that no two adjacent vertices share the same color.
