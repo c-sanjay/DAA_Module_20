@@ -5,22 +5,25 @@ To demonstrate that the sum of the subset of a given set is equal to the given s
 
 
 ## Algorithm
-1. Take an integer input `n` representing the number of elements in the list.  
-2. Read `n` integers from the user and store them in the list `arr`.  
-3. Take an integer input `x` which is the target sum.  
-4. Define a function `subsetSum` that takes `n`, `arr`, and `x` as parameters.  
-5. In the function, iterate `i` from 0 to `n` to generate all possible subset sizes.  
-6. For each size `i`, generate all combinations of `arr` of length `i` using `combinations(arr, i)`.  
-7. For each subset generated, check if the sum of its elements is equal to `x`.  
-8. If the sum matches `x`, print the subset as a list.  
-9. Call the `subsetSum` function with the input values to find and display all matching subsets.  
+
+
+1. Input the number of elements (`size`).  
+2. Input `size` elements into list `a`.  
+3. Input the `target` sum.  
+4. Define recursive function `SubsetSum(a, i, sum, target, n)`.  
+5. If `i == n`, return `sum == target`.  
+6. If `sum > target`, return `False`.  
+7. If `sum == target`, return `True`.  
+8. Recursively return `SubsetSum(a, i+1, sum, target, n) or SubsetSum(a, i+1, sum + a[i], target, n)`.  
+9. Print list `a` and result message based on the function's return value.  
+
 
 ## Program:
 ```
 /*
 Program to implement Subset sum problem.
-Developed by: 
-Register Number:  
+Developed by: SANJAY C
+Register Number:  212223240150
 */
 ```
 ```PY
